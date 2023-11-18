@@ -49,7 +49,6 @@ function MainLead () {
 			headers: {"Content-Type": "application/x-www-form-urlencoded"}
     }).then(response => {
       //response.json().then(data => {
-        //console.log("Successful" + data);
 				console.log(response);
       //})
 			;})

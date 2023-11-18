@@ -9,8 +9,7 @@
 .container {
   max-width: 2400px;
   width: 95vw;
-  /*display: flex;
-  flex-direction: column;*/
+  /*display: flex;*/
 }
 
 .vertical-scrollable-timeline {
