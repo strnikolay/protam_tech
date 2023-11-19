@@ -11,6 +11,7 @@
         }
     }
 
+    
     if (isset($_POST['tel']) ) {
         if(empty($_POST['tel']) && TELISREQUIRED) {
             $msgs['tel'] = MSGSTELERROR;

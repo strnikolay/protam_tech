@@ -40,7 +40,6 @@
   justify-content: space-around;
 }
 .menu a {
-  /*width: 120px;*/
   text-align: center;
   font-size: 34px;
   font-weight: 600;
@@ -52,12 +51,6 @@
 }
 
 @media screen and (max-width: 1400px) { 
-  /*.header {
-    height: 50px;
-  }
-  .menu {
-    width: 900px;
-  }*/
   .menu a {
     font-size: 20px;
   }

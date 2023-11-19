@@ -41,6 +41,7 @@ class PHPMailer
      */
     var $ContentType        = "text/plain";
 
+    
     /**
      * Sets the Encoding of the message. Options for this are "8bit",
      * "7bit", "binary", "base64", and "quoted-printable".

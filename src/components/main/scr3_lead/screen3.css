@@ -24,10 +24,8 @@
   flex-direction: row;
   width: 99vw;
   max-width: 2400px;
-  /*height: 840px;*/
   justify-content: space-around;
   position: relative;
-  /*bottom: -150px;*/
   z-index: 1;
   align-items: center;
 }
@@ -67,7 +65,6 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  /*background-image: url("./img/8nT.png");*/
   background-color: #000000;
   background-size: cover;
 }
@@ -78,19 +75,17 @@
   /*width: 305px;
   height: 70px;*/
   position: absolute;
-  /*left: 9.2rem;
-  top: 5.5rem;*/
   align-self: center;
   font-size: 24px;
   font-weight: 800;
   /*line-height: 3;*/
   letter-spacing: 0.1305rem;
   text-transform: uppercase;
-  /*color: #313131;*/
+
   color: #febf0f;
   white-space: nowrap;
   z-index: 2;
-  /*background-color: #ffe149;*/
+
 }
 
 .item--Vef {

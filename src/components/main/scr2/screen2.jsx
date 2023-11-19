@@ -16,7 +16,6 @@ return(
         <span class="black">каталог</span>
       </p>
     </div>
-    {/*<div class="second-screen-catalog">*/}
 
             <div class="block">
   
@@ -62,7 +61,6 @@ return(
                 </a>
               </div>
             </div>
-    {/*</div>*/}
   </div>
 </div>
 )}

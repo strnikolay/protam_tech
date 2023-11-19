@@ -9,7 +9,6 @@
 .container {
   max-width: 2400px;
   width: 95vw;
-  /*display: flex;*/
 }
 
 .vertical-scrollable-timeline {

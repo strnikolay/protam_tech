@@ -95,6 +95,8 @@ class SMTP
      */
     public $do_debug = self::DEBUG_OFF;
 
+
+    
     /**
      * How to handle debug output.
      * Options:
