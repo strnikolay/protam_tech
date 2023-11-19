@@ -22,6 +22,24 @@ function MainLead () {
 		setName(e.target.value)
 	}
 
+	/*const transporter = nodemailer.createTransport({
+		host: "smtp.gmail.com",
+		port: 465,
+		secure: true,
+		auth: {
+			// TODO: replace `user` and `pass` values from <https://forwardemail.net>
+			user: 'nikolaromanchuk8@gmail.com',
+			pass: 'cyndicat77'
+		}	});
+
+		const options = {
+			from: 'you@example.com',
+			to: 'user@gmail.com',
+			subject: 'hello world',
+			html: "Helo",
+		};	*/
+
+
 	const Send = (email, name) => {
 		console.log(email, name)
 		fetch("/mail/php/mail.php", {
