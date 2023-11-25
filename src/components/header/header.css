@@ -1,0 +1,145 @@
+.header {
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+
+.header-central-item{
+  width: 90vw;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 80px;
+  height: 60px;
+  /*position: relative;
+  top: -20px;*/
+  background-image: url("./name.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.menu{
+  width: 90vw;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu a {
+  /*width: 120px;*/
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-decoration: none ;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+/*@media screen and (max-width: 1920px) { 
+  .menu {
+    width: 1400px;
+  }
+
+  .menu a {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1600px) { 
+  .menu {
+    width: 1200px;
+  }
+
+  .menu a {
+    font-size: 22px;
+  }
+}*/
+
+@media screen and (max-width: 1400px) { 
+  /*.header {
+    height: 50px;
+  }
+  .menu {
+    width: 900px;
+  }*/
+  .menu a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) { 
+  .menu a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 800px) { 
+  /*.menu {
+    width: 640px;
+  }*/
+  /*.menu a {
+    font-size: 18px;
+  }*/
+}
+
+/*@media screen and (max-width: 580px) { 
+  .logo {
+    width: 50px;
+    height: 50px;
+    top: -10px;
+  }
+
+  .menu {
+    width: 480px;
+  }
+  .menu a {
+    width: 100px;
+    font-size: 12px;
+  }
+}*/
+
+@media screen and (max-width: 640px) { 
+  /*.logo {
+    width: 40px;
+    height: 40px;
+  }*/
+  /*.menu {
+    width: 420px;
+  }*/
+  .menu a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 360px) { 
+  .header-central-item{
+    width:360px;
+    height: 70px;
+  }
+
+  /*.logo {
+    width: 40px;
+    height: 40px;
+    top: -5px;
+  }*/
+  .menu {
+    width: 320px;
+  }
+  .menu a {
+    font-size: 11px;
+  }
+}
