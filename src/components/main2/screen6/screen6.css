@@ -1,0 +1,255 @@
+@font-face {
+  font-display: block;
+  font-family: "bootstrap-icons";
+  src: url("./bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf") format("woff2"),
+url("./bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("woff");
+}
+
+
+.screen6 {
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  background-color: #e8e8e8 ;
+  font-size: 20px;
+  padding-top: 50px;
+  /*position: absolute;
+  left: 0;
+  top: 500.3rem;*/
+  /*background-color: #f6f6f6;*/
+  /*background-size: cover;
+  background-position: 0 -0.0162rem;
+  background-image: url('./-oxs.png'); */
+
+}
+/*.screen6::before {
+  content: "";
+  opacity: 0.4;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  /*position: absolute;
+  background-size: 100% 100.978%;
+  background-position: 0 -0.0162rem;
+  background-image: url('./-oxs.png');
+}*/
+
+
+.container {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.text-white{
+  color:#fff
+}*/
+
+
+
+
+
+
+
+
+
+
+ 
+
+.screen6-circle {
+  width: 99rem;
+  height: 100%;
+  position: relative;
+  left: -10rem;
+  top: -29rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+
+.scr6-cont-wraper {
+  width: 80%;
+  height: 100%;
+  /*position: absolute;
+  left: 66.8rem;
+  top: 60%;*/
+}
+.scr6-cont-text {
+  width: 65rem;
+  height: 20rem;
+  padding: 25px;
+  display: flex;
+  position: relative;
+  left: 27rem;
+  /*top: 1.5rem;*/
+  object-fit: contain;
+  vertical-align: top;
+  background-image: url("./mask-group-apo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+/*item--DHH*/
+.scr6-cont-icon {
+  width: 8rem;
+  height: 8rem;
+  /*position: absolute;
+  left: 8.2rem;
+  top: 9.2rem;*/
+  object-fit: contain;
+  vertical-align: top;
+}
+
+
+/*item--9Aw*/ 
+.scr6-cont-text > p {
+  width: 58.1rem;
+  height: 17rem;
+  padding: 10px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.3460000356;
+  letter-spacing: 0.072rem;
+  color: #242424;
+  font-family: Montserrat, 'Source Sans Pro';
+}
+.item--9Aw .brown {
+  font-weight: 600;
+  color: #eb6c45;
+}
+
+.photoroom-2-eo9 {
+  width: 30vw;
+  height: 30vw;
+  position: absolute;
+  right: 0px;
+  /*top: 36.6rem;*/
+  background-size: 95.949% 97.844%;
+  background-position: 3.7468rem 2.4159rem;
+  background-image: url('./photoroom-2.png');
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.timeline-container .vertical-scrollable-timeline li {
+  position: relative;
+  padding: 20px 0px 65px 145px;
+}
+
+
+.timeline-container .vertical-scrollable-timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 0;
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder{
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 104px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febf0f;
+    border-radius: 50%;
+    z-index: 1;
+    transition: 0.4s all;
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder::before{
+    content: "";
+    width: 80px;
+    height: 80px;
+    border: 4px solid #000000;
+    position: absolute;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    z-index: 1;
+    transition: 0.4s all;
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bi-search::before {
+  content: "\f52a";
+}
+
+
+
+.timeline-container .vertical-scrollable-timeline .list-progress {
+  width: 8px;
+  height: 87%;
+  background-color: #fff;
+  position: absolute;
+  left: 52px;
+  top: 0;
+  overflow: hidden;
+}
+
+.timeline-container .vertical-scrollable-timeline .list-progress .inner {
+  height: 544.938px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #000;
+  width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+}
