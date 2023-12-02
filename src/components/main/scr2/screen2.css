@@ -14,6 +14,32 @@
   align-items: center;
 }
 
+.qwerty{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  /*transform: perspective(100px);*/
+  transform-style: preserve-3d;
+  /*transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);*/
+  /*transform: skew(30deg);*/
+  /*animation: rotate 2s infinite;*/
+}
+
+@keyframes rotate{
+  0% {
+    
+    transform: rotate(0.1turn);
+  }
+
+  50% {
+    transform: rotate(-0.1turn);
+  }
+
+  100% {
+    transform: rotate(0.1turn);
+  }
+  
+}
 
 .screen2-title-text {
       font-size: 48px;

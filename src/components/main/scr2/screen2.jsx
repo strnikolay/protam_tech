@@ -5,6 +5,7 @@ import Pdf03 from "./tech/HD605.pdf"
 import Pdf04 from "./tech/PC500.pdf"
 import Pdf05 from "./tech/WA470.pdf"
 import Pdf06 from "./tech/WB93R.pdf"
+import circle from "./cirle.jpg"
 
 function MainSecondScreen () {
 
@@ -23,6 +24,7 @@ return(
                 <a href={Pdf01} target="_blank" rel="noreferrer">
                   <div class="cat img01"></div>
                   <p class="type-text">Гусенечные бульдозеры</p>
+                  <img className="qwerty" src={circle} />
                 </a>
               </div>
 
