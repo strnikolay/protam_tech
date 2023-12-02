@@ -28,8 +28,9 @@ function MainLead () {
 		secure: true,
 		auth: {
 			// TODO: replace `user` and `pass` values from <https://forwardemail.net>
-			user: 'nikolaromanchuk8@gmail.com',
-			pass: 'cyndicat77'
+			** Для тех кто ковыряется в моих старых комитах: пароль я сменил *
+			user: 'email',
+			pass: 'pass'
 		}	});
 
 		const options = {
