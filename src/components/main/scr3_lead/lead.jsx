@@ -61,7 +61,7 @@ function MainLead () {
 
 return(
    
-  <div class="screen3" id="lead">
+  <div class="section screen3" id="lead">
 		<div className="screen-lead-background"></div>
     <div className="form">
 			<label htmlFor="name">

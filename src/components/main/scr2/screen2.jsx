@@ -10,7 +10,7 @@ import circle from "./cirle.jpg"
 function MainSecondScreen () {
 
 return(
-<div class="screen2">
+<div class="section screen2">
   <div class="screen2-content">
     <div class="title">
       <p class="title-text">

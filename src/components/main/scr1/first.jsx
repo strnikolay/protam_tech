@@ -4,7 +4,7 @@ function MainFirstScreen () {
 
 return(
   
-<div className="screen-1">
+<div className="section screen-1">
   <div className="screen-1-wraper">
   <div className="screen-1-background2" />
     <div className="screen-1-background">
