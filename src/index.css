@@ -1,3 +1,25 @@
+html{
+  font-size: calc(100vw / 1920 * 10);
+}
+
+@media screen and (max-width: 1024px) {
+  html{
+  font-size: calc(100vw / 768 * 10);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  html{
+  font-size: calc(100vw / 500 * 10);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html{
+  font-size: calc(100vw / 375 * 10);
+  }
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
