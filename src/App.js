@@ -3,7 +3,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './App.css';
-import Main  from './components/main/main';
+import Home  from './components/home/home';
 //import About from "./components/about/about";
 import ErrorPage from "./components/404/404";
 
@@ -12,7 +12,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Main/>,
+      element: <Home/>,
       //element: <ErrorPage />,
       //errorElement: <ErrorPage />,
     },

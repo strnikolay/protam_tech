@@ -1,6 +1,6 @@
 import "./footer.css"
 
-function MainFooter () {
+function Footer () {
 
 return(
 
@@ -49,8 +49,9 @@ return(
       <div class="row">
         <div class="span6">
           {/*<div class="logo-footer">
-            Design by <a href="https://www.freshdesignweb.com">freshDesignweb</a>
-          </div> </div>                     
+            Design by 
+          </div> 
+        </div>                     
 </div>*/}
         
       
@@ -65,7 +66,7 @@ return(
 
 )}
 
-export default MainFooter;    
+export default Footer;    
 
 
 
