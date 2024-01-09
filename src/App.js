@@ -4,7 +4,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Home  from './components/home/home';
-//import About from "./components/about/about";
+import Catalog from "./components/catalog/catalog";
 import ErrorPage from "./components/404/404";
 
 function App() {
@@ -16,10 +16,10 @@ function App() {
       //element: <ErrorPage />,
       //errorElement: <ErrorPage />,
     },
-    /*{
-      path: "/about",
-      element: <About />,
-    },*/
+    {
+      path: "/catalog",
+      element: <Catalog />,
+    },
   ]);
 
 
