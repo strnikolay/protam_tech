@@ -10,12 +10,12 @@ function MainLead () {
 
 	const emailHandler = (e) => {
 		setEmail(e.target.value)
-		/*const re = /^[a-zA-Z0-9]+@+[a-zA-Z0-9]+.+[A-z]/i; 
+		const re = /^[a-zA-Z0-9]+@+[a-zA-Z0-9]+.+[A-z]/i; 
 		if (!re.test(String(e.target.value).toLowerCase())) {
 				setEmailError('Не коректный')
 		} else {
 				setEmailError('')
-		}*/
+		}
 	}
 	
 	const nameHandler = (e) => {
@@ -25,14 +25,13 @@ function MainLead () {
 	const Send = (email, name) => {
 		console.log(email, name)
 		fetch("/mail/php/mail.php", {
-      method: "POST",
-      body: "",
-
+      		method: "POST",
+      		body: "",
 			headers: {"Content-Type": "application/x-www-form-urlencoded"}
-    }).then(response => {
-      //response.json().then(data => {
-				console.log(response);
-      //})
+	    }).then(response => {
+    	response.json().then(data => {
+				console.log(data);
+      	})
 			;})
 		//transporter.sendMail(options);
 	} 
