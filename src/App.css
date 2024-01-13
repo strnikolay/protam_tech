@@ -96,7 +96,7 @@ h3 {
   color: #242424;
 }
 .title-text .orange {
-  color: #ff9919;
+  color: var(--orange);
 }
 
 @media screen and (max-width: 480px) {

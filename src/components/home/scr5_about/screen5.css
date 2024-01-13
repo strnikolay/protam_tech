@@ -28,7 +28,7 @@
   color: #242424;
 }
 .screen5-title-text .orange {
-  color: #ff9919;
+  color: var(--orange);
 }
 
 
