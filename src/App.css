@@ -18,7 +18,7 @@
 
 .section{
   scroll-snap-align: start;
-  height: 500px;
+  height: 50rem;
 }
 
 .screen-1, .screen-2 {
