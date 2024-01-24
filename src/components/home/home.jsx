@@ -2,7 +2,7 @@
 
 import Header from "./header/header";
 import MainFirstScreen from "./scr1/first";
-import MainSecondScreen from "./scr2/screen2";
+import MainSecondScreen from "./scr2_cat/screen2";
 import MainLead from "./scr3_lead/lead";
 import MainFourScreen from "./scr4_etap/screen4";
 import MainEighthScreen from "./scr5_about/screen5";
