@@ -1,4 +1,4 @@
-import "./screen3.css"
+import "./lead.css"
 import {useState} from 'react';
 
 
