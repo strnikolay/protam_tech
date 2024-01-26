@@ -1,4 +1,4 @@
-import "./header.css"
+import "./header.scss"
 
 
 function Header () {
@@ -10,7 +10,9 @@ return(
           <div className="menu">
             <a href="/">Главная</a>
             <a href="#etap">Этапы работы</a>
-            <div className="logo"></div>
+            <div className="logo-wrapper">
+              <div className="logo"></div>
+            </div>
             <a href="#about">О нас</a>
             <a href="#lead">Контакты</a>
           </div>

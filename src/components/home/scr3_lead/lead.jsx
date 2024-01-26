@@ -12,9 +12,9 @@ function MainLead () {
 		setEmail(e.target.value)
 		const re = /^[a-zA-Z0-9]+@+[a-zA-Z0-9]+.+[A-z]/i; 
 		if (!re.test(String(e.target.value).toLowerCase())) {
-				setEmailError('Не коректный')
+				//setEmailError('Не коректный')
 		} else {
-				setEmailError('')
+				//setEmailError('')
 		}
 	}
 	

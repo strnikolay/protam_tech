@@ -1,6 +1,6 @@
 /*import { useState, useEffect } from "react";*/
 
-import Header from "./header/header";
+import Header from "../header/header";
 import MainFirstScreen from "./scr1/first";
 import MainSecondScreen from "./scr2_cat/screen2";
 import MainLead from "./scr3_lead/lead";
