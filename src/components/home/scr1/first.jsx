@@ -1,4 +1,4 @@
-import "./first.css"
+import "./first.scss"
 
 function MainFirstScreen () {
 

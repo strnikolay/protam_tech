@@ -1,4 +1,4 @@
-import "./screen2.css"
+import "./screen2.scss"
 import Pdf01 from "./tech/D65E.pdf"
 import Pdf02 from "./tech/GD705.pdf"
 import Pdf03 from "./tech/HD605.pdf"
